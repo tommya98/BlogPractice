@@ -9,7 +9,6 @@ export default {
 const Template: StoryFn<typeof Label> = (args) => <Label {...args} />;
 
 export const Default = Template.bind({});
-
 Default.args = {
   text: '블로그 제목',
 };

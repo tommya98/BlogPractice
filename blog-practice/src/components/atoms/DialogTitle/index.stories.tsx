@@ -9,7 +9,6 @@ export default {
 const Template: StoryFn<typeof DialogTitle> = (args) => <DialogTitle {...args} />;
 
 export const Default = Template.bind({});
-
 Default.args = {
   title: '블로그 글 등록',
 };

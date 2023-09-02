@@ -9,7 +9,6 @@ export default {
 const Template: StoryFn<typeof BlogTitle> = (args) => <BlogTitle {...args} />;
 
 export const Default = Template.bind({});
-
 Default.args = {
   title: '블로그 제목',
 };
