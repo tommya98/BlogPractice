@@ -12,6 +12,6 @@ export const Header = () => {
 const Container = styled.div`
   background-color: #ffffff;
   padding: 20px;
-  width: calc(100%-40px);
+  width: calc(100% - 40px);
   margin-bottom: 20px;
 `;
