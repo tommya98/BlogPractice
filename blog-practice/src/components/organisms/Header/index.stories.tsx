@@ -2,7 +2,7 @@ import { StoryFn, Meta } from '@storybook/react';
 import { Header } from '.';
 
 export default {
-  title: 'Molecules/Header',
+  title: 'Organisms/Header',
   component: Header,
 } as Meta<typeof Header>;
 

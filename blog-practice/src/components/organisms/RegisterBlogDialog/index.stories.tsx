@@ -2,7 +2,7 @@ import { StoryFn, Meta } from '@storybook/react';
 import { RegisterBlogDialog } from '.';
 
 export default {
-  title: 'Molecules/RegisterBlogDialog',
+  title: 'Organisms/RegisterBlogDialog',
   component: RegisterBlogDialog,
 } as Meta<typeof RegisterBlogDialog>;
 

@@ -2,7 +2,7 @@ import { StoryFn, Meta } from '@storybook/react';
 import { BlogItem } from '.';
 
 export default {
-  title: 'Molecules/BlogItem',
+  title: 'Organisms/BlogItem',
   component: BlogItem,
 } as Meta<typeof BlogItem>;
 

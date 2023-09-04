@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styled from '@emotion/styled';
 import { DialogTitle } from 'components/atoms/DialogTitle';
-import { Input } from '../Input';
+import { Input } from '../../molecules/Input';
 import { Button } from 'components/atoms/Button';
 
 interface Props {
