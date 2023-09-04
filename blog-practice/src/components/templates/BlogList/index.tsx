@@ -1,8 +1,9 @@
+import { useState } from 'react';
 import styled from '@emotion/styled';
+import { Header } from 'components/organisms/Header';
 import { BlogItem } from 'components/organisms/BlogItem';
 import { Button } from 'components/atoms/Button';
 import { RegisterBlogDialog } from 'components/organisms/RegisterBlogDialog';
-import { useState } from 'react';
 
 export interface Post {
   readonly id: number;
@@ -19,6 +20,7 @@ export const BlogList = ({ posts = [] }: Props) => {
 
   return (
     <Container>
+      <Header />
       {posts.map((blog) => (
         <BlogItem key={blog.id} title={blog.title} body={blog.body} />
       ))}
